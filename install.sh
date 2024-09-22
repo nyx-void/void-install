@@ -14,9 +14,9 @@ EOF
 
 # Install essential packages
 sudo xbps-install xorg base-devel harfbuzz-devel libX11-devel libXinerama-devel \
-	libXft-devel brightnessctl xwallpaper htop xset xdotool lf alsa-utils font-awesome6 \
-	nerd-fonts-symbols-ttf noto-fonts-emoji slock xcompmgr fastfetch firefox nsxiv neovim mpv newsboat \
-	bleachbit unzip zathura zathura-pdf-poppler scrot xf86-video-intel NetworkManager
+	libXft-devel brightnessctl xwallpaper htop xset xdotool lf alsa-utils font-awesome6 font-hack-ttf \
+	nerd-fonts-symbols-ttf noto-fonts-emoji slock xcompmgr fastfetch firefox nsxiv neovim mpv newsboat bleachbit \
+	unzip zathura zathura-pdf-poppler scrot xf86-video-intel NetworkManager
 
 # Create necessary directories
 mkdir -p $HOME/.local/share $HOME/.config $HOME/.local/src $HOME/.local/bin $HOME/.local/hugo-dir
