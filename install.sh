@@ -72,6 +72,10 @@ mkdir -p $HOME/.local/git-repos
 mv $HOME/voidrice $HOME/.local/git-repos
 mv $HOME/void-install $HOME/.local/git-repos
 
+# Idont know why void do this
+mkdir -p $HOME/.cache
+sudo chown void:void $HOME/.cache
+
 cat << "EOF"
 
 
